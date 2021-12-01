@@ -18,7 +18,7 @@ ADD regras/minharegra.conf /etc/modsecurity/regras/
 #####################################
 
 ### SOBE OS WEBSHELLS
-ADD WEBSHELLS/* /var/www/html/
+ADD webshells/* /var/www/html/
 #######################################
 ENV APACHE_LOCK_DIR="/var/lock"
 ENV APACHE_PID_FILE="/var/run/apache2.pid"
