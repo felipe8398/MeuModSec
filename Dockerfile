@@ -34,7 +34,7 @@ WORKDIR /var/www/html
 ########################################
 
 ########################################
-LABEL description="ModSec da Putaria"
+LABEL description="ModSec"
 LABEL version="0.1"
 ########################################
 
