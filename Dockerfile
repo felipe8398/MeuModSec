@@ -11,7 +11,6 @@ RUN echo "<IfModule security2_module>" > /etc/apache2/mods-available/security2.c
 RUN echo "	SecDataDir /var/cache/modsecurity" >> /etc/apache2/mods-available/security2.conf
 RUN echo "	IncludeOptional /etc/modsecurity/*.conf" >> /etc/apache2/mods-available/security2.conf
 RUN echo "	Include /etc/modsecurity/regras/*.conf" >> /etc/apache2/mods-available/security2.conf
-#RUN echo "	Include /etc/modsecurity/rules/*.conf" >> /etc/apache2/mods-available/security2.conf
 RUN echo "</IfModule>" >> /etc/apache2/mods-available/security2.conf
 ########################################
 
