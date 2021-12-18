@@ -25,7 +25,7 @@
 - Ter instalado o idolatrado e sensacional Docker
 - Realizar o build da imagem, exemplo: docker image build -t meumodsec:0.1 .
 - Subir o container, exemplo: docker container run -d -p80:80 meumodsec:0.1
-- Ser feliz \**/
+- Ser feliz  \\**/
 
 
 
