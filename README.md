@@ -21,11 +21,11 @@
 
 # Como subir essa bagaça ? #
 
-1- Realizar o famoso git clone https://github.com/felipe8398/MeuModSec.git
-2- Ter instalado o idolatrado e sensacional Docker
-3- Realizar o build da imagem, exemplo: docker image build -t meumodsec:0.1 .
-4- Subir o container, exemplo: docker container run -d -p80:80 meumodsec:0.1
-5- Ser feliz \**/
+- Realizar o famoso git clone https://github.com/felipe8398/MeuModSec.git
+- Ter instalado o idolatrado e sensacional Docker
+- Realizar o build da imagem, exemplo: docker image build -t meumodsec:0.1 .
+- Subir o container, exemplo: docker container run -d -p80:80 meumodsec:0.1
+- Ser feliz \**/
 
 
 
